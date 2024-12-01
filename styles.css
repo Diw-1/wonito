@@ -1,0 +1,35 @@
+.button-container {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.button {
+    padding: 10px 20px;
+    background-color: #290217;
+    border: 3px solid #ff69b4;
+    border-radius: 15px;
+    color: #ffffff;
+    font-size: 16px;
+    cursor: pointer;
+    text-decoration: none;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    transition: background-color 0.3s, transform 0.3s, box-shadow 0.3s;
+    background-color: rgba(255, 182, 193, 0.2);
+}
+
+.button img {
+    margin-right: 8px; /* Espacio entre el icono y el texto */
+    width: 20px; /* Tamaño del icono */
+    height: 20px;
+}
+
+.button:hover {
+    background-color: #3d032a;
+    border-color: #330135;
+    transform: scale(1.05);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.5);
+}
